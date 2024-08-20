@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Envato Skip Iframe",
+    "description": "Themeforest and Codecanyon skip preview iframe.",
+    "version": "1.0",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://preview.themeforest.net/item/*",
+          "https://preview.codecanyon.net/item/*"
+        ],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
