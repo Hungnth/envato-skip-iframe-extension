@@ -9,7 +9,7 @@
 
 ## Installation
 
-1. Download or clone this repository to your local machine.
+1. Download or clone this repository to your local machine. [Download Extension](https://github.com/Hungnth/envato-skip-iframe-extension/archive/refs/heads/main.zip)
 2. Open Chrome and go to `chrome://extensions/`.
 3. Enable "Developer mode" by toggling the switch in the upper right corner.
 4. Click on "Load unpacked" and select the directory where you downloaded this extension.
